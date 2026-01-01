@@ -7,9 +7,9 @@ app = Flask(__name__)
 
 # इमेल पठाउने सेटिङ
 def send_notification(name, contact, issue):
-    sender_email = "तपाईँको_gmail@gmail.com"  # यहाँ आफ्नो Gmail राख्नुहोस्
-    receiver_email = "तपाईँको_gmail@gmail.com" # यहाँ पनि आफ्नै Gmail राख्नुहोस्
-    password = "abcd efgh ijkl mnop"       # यहाँ त्यो १६ अक्षरको App Password राख्नुहोस्
+    sender_email = "तपाईँको_jn385799@gmail.com"  # यहाँ आफ्नो Gmail राख्नुहोस्
+    receiver_email = "तपाईँको_jn385799@gmail.com" # यहाँ पनि आफ्नै Gmail राख्नुहोस्
+    password = "ubwrkrtltzhcdgyc"       # यहाँ त्यो १६ अक्षरको App Password राख्नुहोस्
 
     msg = MIMEText(f"नयाँ मद्दत अनुरोध!\n\nनाम: {name}\nसम्पर्क: {contact}\nसमस्या: {issue}")
     msg['Subject'] = 'CyberSahayogi - New Help Request'
